@@ -1,0 +1,14 @@
+
+<div class="container">
+    <h1>O empréstimo foi realizado com sucesso!</h1>
+    <br>
+    <h3> Veja abaixo o que você contratou:</h3>
+    <ul>
+        <li>Valor das parcelas: R$  {{ localData.valor }}</li>
+        <li>Número de parcelas: {{ localData.installments }}</li>
+        <li>Total com juros: R$  {{ localData.total }}</li>
+    </ul>
+</div>
+<div class="btn">
+    <button class="btn btn-warning" (click)="onClick()">Fazer outro empréstimo</button>
+</div>

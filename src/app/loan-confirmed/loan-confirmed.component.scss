@@ -1,0 +1,28 @@
+.container {
+    background: lightsalmon;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 6px;
+
+    h1, h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        margin-top: 60px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
